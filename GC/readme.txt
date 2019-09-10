@@ -1,1 +1,1 @@
-111
+Bugs using VBScript Class_Terminator to trigger Callback in JavaScript GC.
